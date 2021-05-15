@@ -1,0 +1,13 @@
+.container{
+    margin-top: 4%;
+    text-align: center;
+}
+#heading{
+    text-shadow: 2px 2px 5px rgb(126, 60, 212);
+    color:  rgb(126, 60, 212);
+    margin-bottom: 5%;
+}
+input{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}

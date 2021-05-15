@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>My App</title>
+</head>
+<body>
+    <div class="container" >
+        <h1 id="heading">Hello, Welcome to My App</h1>
+        <h3>My App users are</h3>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Himanshu</li>
+            <li class="list-group-item">Parth</li>
+            <li class="list-group-item">Nikhil</li>
+            <li class="list-group-item">Deepak</li>
+          </ul>
+
+        <form class="my-3" action="/create-user" method="POST">
+            Username: <input type="text" name="username" required>
+            <input class="btn btn-success" type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>
